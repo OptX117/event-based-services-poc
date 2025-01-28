@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36af670c-aa14-453b-86cd-73a46cdd14b0" name="Changes" comment="chore: add readme">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LNKD.tech Editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    <list default="true" id="36af670c-aa14-453b-86cd-73a46cdd14b0" name="Changes" comment="chore: add some more background to readme">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +62,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "OptX117"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/OptX117/event-based-services-poc.git",
+    "accountId": "1d019a78-574c-4c0f-8c16-35f52aa0c521"
+  }
+}]]></component>
   <component name="JiraServerManager">
     <selected>-1</selected>
     <servers />
@@ -91,50 +93,49 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Docker.dev-env/docker-compose.yaml.kafka: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.dev-env/docker-compose.yaml: Compose Deployment (1).executor&quot;: &quot;Run&quot;,
-    &quot;Docker.dev-env/docker-compose.yaml: Compose Deployment (2).executor&quot;: &quot;Run&quot;,
-    &quot;Docker.dev-env/docker-compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build Event Based Services.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Event Based Services [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Event Based Services [generateAvroJava].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Event Based Services:kafkaSchemas [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Event Based Services:kafkaSchemas [generateAvroJava].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Event Based Services:kafkaSchemas [generateAvroProtocol].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Event Based Services:kafkaSchemas [generateProtocol].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Event Based Services:kafkaSchemas [generateSchema].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Event Based Services:kafkaSchemas [registerSchemasTask].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;Spring Boot.App (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.App.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.IngestApp.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.TransformApp.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/felixkopf/Work/Event Based Services/kafkaSchemas/src/main/avro/schemas/events/episode&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/felixkopf/Work/Event Based Services/app/src/main/kotlin/App.kt&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.language.Kotlin&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.dev-env/docker-compose.yaml.kafka: Compose Deployment.executor": "Run",
+    "Docker.dev-env/docker-compose.yaml: Compose Deployment (1).executor": "Run",
+    "Docker.dev-env/docker-compose.yaml: Compose Deployment (2).executor": "Run",
+    "Docker.dev-env/docker-compose.yaml: Compose Deployment.executor": "Run",
+    "Gradle.Build Event Based Services.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.Event Based Services [clean].executor": "Run",
+    "Gradle.Event Based Services [generateAvroJava].executor": "Run",
+    "Gradle.Event Based Services:kafkaSchemas [clean].executor": "Run",
+    "Gradle.Event Based Services:kafkaSchemas [generateAvroJava].executor": "Run",
+    "Gradle.Event Based Services:kafkaSchemas [generateAvroProtocol].executor": "Run",
+    "Gradle.Event Based Services:kafkaSchemas [generateProtocol].executor": "Run",
+    "Gradle.Event Based Services:kafkaSchemas [generateSchema].executor": "Run",
+    "Gradle.Event Based Services:kafkaSchemas [registerSchemasTask].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.App (1).executor": "Run",
+    "Spring Boot.App.executor": "Run",
+    "Spring Boot.IngestApp.executor": "Run",
+    "Spring Boot.TransformApp.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/felixkopf/Work/Event Based Services/kafkaSchemas/src/main/avro/schemas/events/episode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/felixkopf/Work/Event Based Services/app/src/main/kotlin/App.kt",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.language.Kotlin",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -260,14 +261,14 @@
       <method v="2" />
     </configuration>
     <configuration name="IngestApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Event Based Services.ingest.main" />
+      <module name="Event_Based_Services.ingest.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="de.fkopf.eventbased.ingest.IngestApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TransformApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Event Based Services.transform.main" />
+      <module name="Event_Based_Services.transform.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="de.fkopf.eventbased.transform.TransformApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -334,6 +335,7 @@
       <workItem from="1737717631450" duration="402000" />
       <workItem from="1737718079985" duration="11669000" />
       <workItem from="1738053180510" duration="4102000" />
+      <workItem from="1738058140499" duration="1241000" />
     </task>
     <task id="LOCAL-00001" summary="feat: ingest example service">
       <option name="closed" value="true" />
@@ -423,7 +425,39 @@
       <option name="project" value="LOCAL" />
       <updated>1738057573106</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="chore: add readme">
+      <option name="closed" value="true" />
+      <created>1738058282174</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738058282174</updated>
+    </task>
+    <task id="LOCAL-00013" summary="chore: add some more background to readme">
+      <option name="closed" value="true" />
+      <created>1738058802254</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738058802254</updated>
+    </task>
+    <task id="LOCAL-00014" summary="chore: add some more background to readme">
+      <option name="closed" value="true" />
+      <created>1738059029174</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1738059029174</updated>
+    </task>
+    <task id="LOCAL-00015" summary="chore: add some more background to readme">
+      <option name="closed" value="true" />
+      <created>1738059063272</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738059063272</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +479,8 @@
     <MESSAGE value="feat: partial genre transform service" />
     <MESSAGE value="feat: initial implementation of video events" />
     <MESSAGE value="chore: add readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: add readme" />
+    <MESSAGE value="chore: add some more background to readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: add some more background to readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

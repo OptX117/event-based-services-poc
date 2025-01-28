@@ -1,6 +1,14 @@
 # Event Based Services Demo
 
-This project is a sort of proof of concept for a simple event based services architecture. It is composed of three services:
+## Background
+
+The idea is to show that not all data has to always be send at at once. Using an event based architecture, we can send the data in small chunks and process it as needed. Services that do not need a particular event can simply ignore it. At the same time, if data needs to be present "as a set", this can still be achieved by collecting the needed events before processing the data further.
+
+It also serves as a way for me to explore using Spring Cloud Stream, Kafka and what's possible with the Confluent schema registry. So expect some jank. And tests are unnecessary anyway.
+
+## Architecture
+
+This project is composed of three services:
 
 - **Ingest Service**: This service produces a number of initial events and sends them to a Kafka topic.
 - **Transform Service**: This service consumes the events from the Kafka topic, transforms them and sends them to another Kafka topic. Some of this transformation happens asynchronously.
@@ -26,6 +34,8 @@ docker compose -f ./dev-env up
 ```
 
 This will start the Kafka, Schema Registry and AKHQ services.
+
+Access the AKHQ dashboard at http://localhost:8080
 
 ### Running the services
 
