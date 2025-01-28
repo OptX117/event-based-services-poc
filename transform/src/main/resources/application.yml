@@ -1,0 +1,76 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9094
+  application:
+    name: transform
+  cloud:
+    function:
+      definition: genreTableProcess|combineGenres;encodingJobFinishedSource;episodeTableProcess|triggerEncoding
+    stream:
+      bindings:
+        genreTableProcess|combineGenres-in-0:
+          destination: events
+          consumer:
+            use-native-decoding: true
+        genreTableProcess|combineGenres-out-0:
+          destination: events
+          producer:
+            use-native-encoding: true
+        episodeTableProcess|triggerEncoding-in-0:
+          destination: events
+          consumer:
+            use-native-decoding: true
+        episodeTableProcess|triggerEncoding-out-0:
+          destination: events
+          producer:
+            use-native-encoding: true
+        encodingJobFinishedSource-out-0:
+          destination: events
+          producer:
+            use-native-encoding: true
+      kafka:
+        streams:
+          binder:
+            brokers: localhost:9094
+            configuration:
+                auto.register.schemas: false
+                schema.registry.url: http://localhost:8081
+                use.latest.version: true
+                default.value.serde: io.confluent.kafka.streams.serdes.avro.SpecificAvroSerde
+                default.key.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+                commit.interval.ms: 1000
+          bindings:
+            genreTableProcess|combineGenres-in-0:
+              consumer:
+                application-id: ${spring.application.name}_genreProcess
+                value-serde: io.confluent.kafka.streams.serdes.avro.SpecificAvroSerde
+            genreTableProcess|combineGenres-out-0:
+              producer:
+                value-serde: io.confluent.kafka.streams.serdes.avro.SpecificAvroSerde
+                stream-partitioner-bean-name:
+            episodeTableProcess|triggerEncoding-in-0:
+              consumer:
+                application-id: ${spring.application.name}_videoProcess
+                value-serde: io.confluent.kafka.streams.serdes.avro.SpecificAvroSerde
+            episodeTableProcess|triggerEncoding-out-0:
+              producer:
+                value-serde: io.confluent.kafka.streams.serdes.avro.SpecificAvroSerde
+        bindings:
+          encodingJobFinishedSource-out-0:
+            producer:
+              configuration:
+                key.serializer: org.apache.kafka.common.serialization.StringSerializer
+                value.serializer: io.confluent.kafka.streams.serdes.avro.SpecificAvroSerializer
+                schema.registry.url: ${spring.cloud.stream.kafka.streams.binder.configuration.schema.registry.url}
+                auto.register.schemas: false
+                use.latest.version: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+app:
+  kafka:
+    record-name-serde:
+      schema-registry-url: ${spring.cloud.stream.kafka.streams.binder.configuration.schema.registry.url}

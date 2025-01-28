@@ -1,0 +1,48 @@
+{
+  "type": "record",
+  "name": "Episode",
+  "namespace": "de.fkopf.eventbased.episode",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "ordinal",
+      "type": "int"
+    },
+    {
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "type": "string"
+    },
+    {
+      "name": "imdbId",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "formatId",
+      "type": "string"
+    },
+    {
+      "name": "seasonId",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "genreIds",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    }
+  ]
+}

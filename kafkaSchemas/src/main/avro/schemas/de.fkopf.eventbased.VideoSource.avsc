@@ -1,0 +1,80 @@
+{
+  "type": "record",
+  "name": "VideoSource",
+  "namespace": "de.fkopf.eventbased.episode",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "episodeId",
+      "type": "string"
+    },
+    {
+      "name": "ordinal",
+      "type": "int"
+    },
+    {
+      "name": "uri",
+      "type": "string"
+    },
+    {
+      "name": "mediaInfo",
+      "type": {
+        "type": "record",
+        "name": "MediaInfo",
+        "fields": [
+          {
+            "name": "duration",
+            "type": "long"
+          },
+          {
+            "name": "width",
+            "type": "int"
+          },
+          {
+            "name": "height",
+            "type": "int"
+          },
+          {
+            "name": "bitrate",
+            "type": "int"
+          },
+          {
+            "name": "codec",
+            "type": "string"
+          },
+          {
+            "name": "audioTracks",
+            "type": {
+              "type": "array",
+              "items": {
+                "type": "record",
+                "name": "AudioTrack",
+                "fields": [
+                  {
+                    "name": "language",
+                    "type": "string"
+                  },
+                  {
+                    "name": "codec",
+                    "type": "string"
+                  },
+                  {
+                    "name": "channels",
+                    "type": "string"
+                  },
+                  {
+                    "name": "bitrate",
+                    "type": "int"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

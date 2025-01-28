@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="36af670c-aa14-453b-86cd-73a46cdd14b0" name="Changes" comment="chore: add readme">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LNKD.tech Editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/kafkaSchemas">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/ingest">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Event Based Services" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Object" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Felix Kopf &lt;felix@kopf-inet.de&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="JiraServerManager">
+    <selected>-1</selected>
+    <servers />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2rOYrC0GmOKmGIKLJojH0vyt3UQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.dev-env/docker-compose.yaml.kafka: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.dev-env/docker-compose.yaml: Compose Deployment (1).executor&quot;: &quot;Run&quot;,
+    &quot;Docker.dev-env/docker-compose.yaml: Compose Deployment (2).executor&quot;: &quot;Run&quot;,
+    &quot;Docker.dev-env/docker-compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build Event Based Services.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Event Based Services [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Event Based Services [generateAvroJava].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Event Based Services:kafkaSchemas [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Event Based Services:kafkaSchemas [generateAvroJava].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Event Based Services:kafkaSchemas [generateAvroProtocol].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Event Based Services:kafkaSchemas [generateProtocol].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Event Based Services:kafkaSchemas [generateSchema].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Event Based Services:kafkaSchemas [registerSchemasTask].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;Spring Boot.App (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.App.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.IngestApp.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TransformApp.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/felixkopf/Work/Event Based Services/kafkaSchemas/src/main/avro/schemas/events/episode&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/felixkopf/Work/Event Based Services/app/src/main/kotlin/App.kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.language.Kotlin&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kafkaSchemas/src/main/avro/schemas/events/episode" />
+      <recent name="$PROJECT_DIR$/kafkaSchemas/src/main/avro/schemas/events/meta" />
+      <recent name="$PROJECT_DIR$/kafkaSchemas/src/main/avro/schemas" />
+      <recent name="$PROJECT_DIR$/kafkaSchemas/src/main/avro/schemas/events/season" />
+      <recent name="$PROJECT_DIR$/kafkaSchemas/src/main/avro/schemas/events/genre" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/transform/src/main/resources" />
+      <recent name="$PROJECT_DIR$/transform/src/main/kotlin/de/fkopf/eventbased/transform" />
+      <recent name="$PROJECT_DIR$/kafkaSchemas/src/main/avro/schemas/events" />
+      <recent name="$PROJECT_DIR$/ingest/src/main/kotlin/de/fkopf/eventbased/ingest" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="de.fkopf.eventbased.transform.infrastructure.video" />
+      <recent name="de.fkopf.eventbased.transform.domain.videosource" />
+      <recent name="de.fkopf.eventbased.transform.infrastructure.genres" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="de.fkopf.eventbased.transform.usecases.video" />
+      <recent name="de.fkopf.eventbased.transform.infrastructure.video" />
+      <recent name="de.fkopf.eventbased.transform.infrastructure.genres" />
+      <recent name="de.fkopf.eventbased.ingest.producer" />
+      <recent name="domain" />
+    </key>
+    <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="de.fkopf.eventbased.transform.usecases.video" />
+      <recent name="de.fkopf.eventbased.transform.infrastructure" />
+      <recent name="de.fkopf.eventbased.transform.usecases.genres" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Event Based Services:kafkaSchemas [registerSchemasTask]">
+    <configuration name="Event Based Services [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Event Based Services [generateAvroJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generateAvroJava" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Event Based Services:kafkaSchemas [generateAvroJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kafkaSchemas" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generateAvroJava" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Event Based Services:kafkaSchemas [registerSchemasTask]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kafkaSchemas" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="registerSchemasTask" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="IngestApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Event Based Services.ingest.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="de.fkopf.eventbased.ingest.IngestApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransformApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Event Based Services.transform.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="de.fkopf.eventbased.transform.TransformApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="dev-env/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="dev-env/docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.dev-env/docker-compose.yaml: Compose Deployment" />
+      <item itemvalue="Gradle.Event Based Services:kafkaSchemas [registerSchemasTask]" />
+      <item itemvalue="Gradle.Event Based Services:kafkaSchemas [generateAvroJava]" />
+      <item itemvalue="Gradle.Event Based Services [clean]" />
+      <item itemvalue="Gradle.Event Based Services [generateAvroJava]" />
+      <item itemvalue="Spring Boot.IngestApp" />
+      <item itemvalue="Spring Boot.TransformApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Event Based Services:kafkaSchemas [registerSchemasTask]" />
+        <item itemvalue="Docker.dev-env/docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Gradle.Event Based Services:kafkaSchemas [generateAvroJava]" />
+        <item itemvalue="Gradle.Event Based Services [clean]" />
+        <item itemvalue="Gradle.Event Based Services [generateAvroJava]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36af670c-aa14-453b-86cd-73a46cdd14b0" name="Changes" comment="" />
+      <created>1736431785321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736431785321</updated>
+      <workItem from="1736431786194" duration="9993000" />
+      <workItem from="1736497673084" duration="18799000" />
+      <workItem from="1737018704132" duration="21592000" />
+      <workItem from="1737448710257" duration="2916000" />
+      <workItem from="1737533337720" duration="609000" />
+      <workItem from="1737546125784" duration="598000" />
+      <workItem from="1737627475185" duration="2630000" />
+      <workItem from="1737635792371" duration="554000" />
+      <workItem from="1737636352374" duration="12505000" />
+      <workItem from="1737717631450" duration="402000" />
+      <workItem from="1737718079985" duration="11669000" />
+      <workItem from="1738053180510" duration="4102000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: ingest example service">
+      <option name="closed" value="true" />
+      <created>1737019024705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737019024705</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: partial genre transform service">
+      <option name="closed" value="true" />
+      <created>1737036558913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737036558913</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: partial genre transform service">
+      <option name="closed" value="true" />
+      <created>1737040592519</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737040592519</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: partial genre transform service">
+      <option name="closed" value="true" />
+      <created>1737040861003</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737040861003</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: initial implementation of video events">
+      <option name="closed" value="true" />
+      <created>1737124402891</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737124402891</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: initial implementation of video events">
+      <option name="closed" value="true" />
+      <created>1737124524722</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737124524722</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: initial implementation of video events">
+      <option name="closed" value="true" />
+      <created>1737124528736</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737124528736</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: initial implementation of video events">
+      <option name="closed" value="true" />
+      <created>1737644370547</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737644370547</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: initial implementation of video events">
+      <option name="closed" value="true" />
+      <created>1737644422123</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737644422123</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: initial implementation of video events">
+      <option name="closed" value="true" />
+      <created>1737729739731</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737729739731</updated>
+    </task>
+    <task id="LOCAL-00011" summary="chore: add readme">
+      <option name="closed" value="true" />
+      <created>1738057573106</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738057573106</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: ingest example service" />
+    <MESSAGE value="feat: partial genre transform service" />
+    <MESSAGE value="feat: initial implementation of video events" />
+    <MESSAGE value="chore: add readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: add readme" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="topic.startsWith(&quot;transform&quot;)" language="JAVA" />
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.confluent/kafka-schema-serializer/7.5.1/4dbe731e0f8c632059e9aa186b6cbc32fae18a17/kafka-schema-serializer-7.5.1-sources.jar!/io/confluent/kafka/serializers/AbstractKafkaSchemaSerDe.java</url>
+          <line>438</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-stream/4.2.0/91d01be94396951bc1f4026051d1b73ce1588f4b/spring-cloud-stream-4.2.0-sources.jar!/org/springframework/cloud/stream/function/StreamBridge.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/3.9.0/cc536852d54093892af571fe8ab494e911042f05/kafka-clients-3.9.0-sources.jar!/org/apache/kafka/clients/producer/KafkaProducer.java</url>
+          <line>1037</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

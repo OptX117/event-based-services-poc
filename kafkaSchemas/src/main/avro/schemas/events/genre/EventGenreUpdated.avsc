@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "EventGenreUpdated",
+  "namespace": "de.fkopf.eventbased.events",
+  "fields": [
+    {
+      "name": "source",
+      "type": "string"
+    },
+    {
+      "name": "data",
+      "type": "de.fkopf.eventbased.genre.Genre"
+    }
+  ]
+}

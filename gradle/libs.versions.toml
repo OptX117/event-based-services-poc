@@ -1,0 +1,67 @@
+# Version catalog is a central place for you to declare and version dependencies
+# https://docs.gradle.org/current/userguide/platforms.html#sub:version-catalog
+# https://docs.gradle.org/current/userguide/platforms.html#sub::toml-dependencies-format
+
+[versions]
+kotlin = "2.0.21"
+springBoot = "3.4.1"
+springManagement = "1.1.7"
+springCloudVersion = "2024.0.0"
+avro = "1.11.3"
+kafkaAvroSerializer = "7.5.1"
+kotest = "5.9.0"
+kotestSpring = "1.3.0"
+avroPlugin = "1.9.1"
+kafkaSchemaRegistryPlugin = "1.12.0"
+
+[libraries]
+kotlinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+# spring
+springBootBom = { module = "org.springframework.boot:spring-boot-dependencies", version.ref = "springBoot" }
+springBootStarter = { module = "org.springframework.boot:spring-boot-starter" }
+springBootStarterActuator = { module = "org.springframework.boot:spring-boot-starter-actuator" }
+springBootStarterTest = { module = "org.springframework.boot:spring-boot-starter-test" }
+springKafka = { module = "org.springframework.kafka:spring-kafka" }
+springCloudStreamBom = { module = "org.springframework.cloud:spring-cloud-dependencies", version.ref = "springCloudVersion" }
+springCloudStream = { module = "org.springframework.cloud:spring-cloud-stream" }
+springCloudStreamKafkaStreams = { module = "org.springframework.cloud:spring-cloud-stream-binder-kafka-streams" }
+springCloudStreamKafka = { module = "org.springframework.cloud:spring-cloud-stream-binder-kafka" }
+# avro
+avro = { module = "org.apache.avro:avro", version.ref = "avro" }
+kafkaStreamsAvroSerde = { module = "io.confluent:kafka-streams-avro-serde", version.ref = "kafkaAvroSerializer" }
+kafkaAvroSerializer = { module = "io.confluent:kafka-avro-serializer", version.ref = "kafkaAvroSerializer" }
+
+# correct kafka version
+kafkaStreams = { module = "org.apache.kafka:kafka-streams", version = "3.9.0" }
+kafkaClients = { module = "org.apache.kafka:kafka-clients", version = "3.9.0" }
+
+
+# fake data
+faker = { module = "com.github.javafaker:javafaker", version = "1.0.2" }
+snakeyaml = { module = "org.yaml:snakeyaml", version = "2.3" }
+
+# logging
+kotlinLoggingJvm = { module = "io.github.oshai:kotlin-logging-jvm", version = "7.0.3" }
+
+# test
+kotestRunner = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
+kotestAssertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
+kotestProperty = { module = "io.kotest:kotest-property", version.ref = "kotest" }
+kotestSpring = { module = "io.kotest.extensions:kotest-extensions-spring", version.ref = "kotestSpring" }
+
+
+# Libraries can be bundled together for easier import
+[bundles]
+springBootStarter = ["springBootStarter", "springBootStarterTest", "springBootStarterActuator"]
+kotest = ["kotestRunner", "kotestAssertions", "kotestProperty", "kotestSpring"]
+springCloudStream = ["springCloudStream", "springCloudStreamKafkaStreams", "springCloudStreamKafka", "avro", "kafkaStreamsAvroSerde"]
+kafka = ["springKafka", "avro", "kafkaAvroSerializer"]
+faker = ["faker", "snakeyaml"]
+logging = ["kotlinLoggingJvm"]
+
+[plugins]
+springBoot = { id = "org.springframework.boot", version.ref = "springBoot" }
+springManagement = { id = "io.spring.dependency-management", version.ref = "springManagement" }
+kotlinPluginSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+gradleAvroPlugin = { id = "com.github.davidmc24.gradle.plugin.avro", version.ref = "avroPlugin" }
+kafkaSchemaRegistryPlugin = { id = "com.github.imflog.kafka-schema-registry-gradle-plugin", version.ref = "kafkaSchemaRegistryPlugin" }

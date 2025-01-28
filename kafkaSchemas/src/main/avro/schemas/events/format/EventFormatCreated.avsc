@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "EventFormatCreated",
+  "namespace": "de.fkopf.eventbased.events",
+  "fields": [
+    {
+      "name": "source",
+      "type": "string"
+    },
+    {
+      "name": "data",
+      "type": "de.fkopf.eventbased.format.Format"
+    }
+  ]
+}

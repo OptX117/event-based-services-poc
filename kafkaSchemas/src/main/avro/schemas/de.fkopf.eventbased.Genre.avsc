@@ -1,0 +1,15 @@
+{
+  "type" : "record",
+  "name" : "Genre",
+  "namespace" : "de.fkopf.eventbased.genre",
+  "fields" : [ {
+    "name" : "name",
+    "type" : "string"
+  }, {
+    "name" : "id",
+    "type" : "string"
+  }, {
+    "name" : "imdbId",
+    "type" : [ "null", "string" ]
+  } ]
+}

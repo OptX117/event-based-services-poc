@@ -1,0 +1,15 @@
+[
+  "de.fkopf.eventbased.events.EventEpisodeCreated",
+  "de.fkopf.eventbased.events.EventEpisodeUpdated",
+  "de.fkopf.eventbased.events.EventEpisodeVideoEncoded",
+  "de.fkopf.eventbased.events.EventEpisodeVideoEncodingJobStarted",
+  "de.fkopf.eventbased.events.EventEpisodeVideoDeleted",
+  "de.fkopf.eventbased.events.EventSeasonCreated",
+  "de.fkopf.eventbased.events.EventSeasonUpdated",
+  "de.fkopf.eventbased.events.EventFormatCreated",
+  "de.fkopf.eventbased.events.EventFormatUpdated",
+  "de.fkopf.eventbased.events.EventGenreCreated",
+  "de.fkopf.eventbased.events.EventGenreUpdated",
+  "de.fkopf.eventbased.events.EventDeleted",
+  "de.fkopf.eventbased.events.EventRelated"
+]

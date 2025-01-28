@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "EventDeleted",
+  "namespace": "de.fkopf.eventbased.events",
+  "fields": [
+    {
+      "name": "source",
+      "type": "string"
+    },
+    {
+      "name": "id",
+      "type": "string"
+    }
+  ]
+}

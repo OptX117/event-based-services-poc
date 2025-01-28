@@ -1,0 +1,24 @@
+{
+  "type" : "record",
+  "name" : "Format",
+  "namespace" : "de.fkopf.eventbased.format",
+  "fields" : [ {
+    "name" : "id",
+    "type" : "string"
+  }, {
+    "name" : "title",
+    "type" : "string"
+  }, {
+    "name" : "description",
+    "type" : "string"
+  }, {
+    "name" : "imdbId",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "genreIds",
+    "type" : {
+      "type" : "array",
+      "items" : "string"
+    }
+  } ]
+}

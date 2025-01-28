@@ -1,0 +1,30 @@
+{
+  "type" : "record",
+  "name" : "Season",
+  "namespace" : "de.fkopf.eventbased.season",
+  "fields" : [ {
+    "name" : "id",
+    "type" : "string"
+  }, {
+    "name" : "ordinal",
+    "type" : "int"
+  }, {
+    "name" : "title",
+    "type" : "string"
+  }, {
+    "name" : "description",
+    "type" : "string"
+  }, {
+    "name" : "imdbId",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "formatId",
+    "type" : "string"
+  }, {
+    "name" : "genreIds",
+    "type" : {
+      "type" : "array",
+      "items" : "string"
+    }
+  } ]
+}

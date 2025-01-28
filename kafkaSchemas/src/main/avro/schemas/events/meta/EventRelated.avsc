@@ -1,0 +1,22 @@
+{
+  "type": "record",
+  "name": "EventRelated",
+  "namespace": "de.fkopf.eventbased.events",
+  "fields": [
+    {
+      "name": "source",
+      "type": "string"
+    },
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "related",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    }
+  ]
+}
